@@ -1,0 +1,77 @@
+.home-page {
+  text-align: center;
+  padding: 40px;
+}
+
+.input-section input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.category-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .categories {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}
+
+.categories label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.categories input[type="radio"] {
+  margin-right: 10px;
+}
+
+.categories label:hover {
+  border-color: #b81f56;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff5f8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rules-section {
+  background-color: #f7f7f7;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rules-section p {
+  font-size: 16px;
+  color: #595959;
+  margin-bottom: 5px;
+}

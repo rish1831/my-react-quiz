@@ -1,0 +1,33 @@
+.header {
+  background-color: #f9f8f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #b81f56;
+}
+
+.logo span {
+  color: #d64571;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.exit-button {
+  border-color: #d64571;
+  background: none;
+  cursor: pointer;
+  height: fit-content;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+.username-class {
+  color: #373052;
+}
